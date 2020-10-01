@@ -1,0 +1,199 @@
+    html, body{
+        margin:0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    header{
+        background-color: rgb(128, 0, 128);
+        color: white;
+        height: 60px;
+        width:100%;
+        position: fixed;
+        z-index: 10;
+    }
+    #logo{
+        width:55px;
+        position: absolute;
+        margin-left: 5%;
+    }
+    #menu{
+        float:right;
+        margin-right: 5%;
+        margin-top: 0px;
+        list-style: none;
+    }
+    li{
+        float: left;
+        color: white;
+        padding: 20px 10px 20px 10px;
+    }
+    li:hover{
+        background-color: rgb(211, 128, 211);;
+        color: rgb(128, 0, 128);
+        transition-property: all;
+        transition-duration: 0.6s;
+    }
+    .cormenu{
+        color:white; 
+        text-decoration: none;
+    }
+    #imagemfundo{
+        background:url("womanaa.jpg");
+        padding:330px;
+        text-align: center;
+        background-size: cover;
+    }
+    #título{
+        color: rgb(102, 2, 102);
+        font-size:80px;
+        padding-top:8px;
+        text-align: right;
+    }
+    #subtítulo{
+        color:purple;
+        font-size:20px;
+        text-align: left;
+    }
+    #acao{
+        color: white;
+        border:3px white solid;
+        padding: 4px 7px;
+        border-radius: 0.8rem;
+    }
+    #acao:hover{ 
+        background-color:rgb(156, 26, 135);
+        border:none;
+    }
+    .icones{
+        width: 51px;
+        padding-top: 11px;
+    }
+    .exemplo{
+        background:rgb(177, 118, 177);
+        height: 100px; 
+    }
+    .coluna-1{
+        float: right;
+        padding:0 5%;
+        position: relative;
+        width: 40%; 
+    }
+    .coluna-2{
+        float: right;
+        padding:0 5%;
+        position: relative;
+        width: 40%; 
+    }
+    .coluna3{
+        float: left;
+        padding: 0 2%;
+        position: relative;
+        width: 29%;
+    }
+    section{
+        padding: 5px;
+        float: left; 
+    }
+    .destaque{
+        background-color: white;
+        text-align: justify;
+        float: left;
+        padding: 5px;
+        width: 100%;
+        position:relative;
+    }
+    .tema{
+        background-color: rgb(255, 254, 255); 
+        text-align: justify;
+        border-left: 1.5vw #eb9443 solid;
+        border-right: 1.5vw #eb9443 solid;
+    }
+    .meta{
+        background-color: rgb(238, 238, 248);
+        border-left: 1.5vw #515dd1 solid;
+        border-right: 1.5vw #515dd1 solid;
+        text-align: justify;
+    }
+    .meta2{
+        background-color: white;
+        text-align: justify;
+        border-left: 1.5vw #eb9443 solid;
+        border-right: 1.5vw #eb9443 solid;
+    }
+    .meta1{
+        background-color: rgb(255, 254, 255); 
+        text-align: justify;
+        border-left: 1.5vw #eb9443 solid;
+        border-right: 1.5vw #eb9443 solid;
+    }
+    .destaque1{
+        background-color: rgb(238, 238, 248);
+        text-align: justify;
+        border-left: 1.5vw #772786 solid;
+        border-right: 1.5vw #772786 solid
+    }
+    .id{
+        background-color: rgb(238, 238, 248);
+        text-align: justify;
+        border-left: 1.5vw #772786 solid;
+        border-right: 1.5vw #772786 solid;
+    }
+    .centralizado{
+        text-align: center; 
+    }
+    .justificado{
+        text-align: justify;
+    }
+    .colunaFinal{
+        float: left;
+        padding: 0 2%;
+        position: relative;
+        width:0 2%;
+        color: white;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        position: right;
+    }
+    footer{
+        background-color: purple;
+        float: left;
+        padding: 5px;
+        width: 100%; 
+        font-size: 15px;
+        position: relative;
+    }
+    .colunasobre{
+        text-align: justify;
+        
+    }
+    .coluna1{
+        float: left;
+        padding: 5%;
+        position: relative;
+        width: 40%; 
+    }
+    @media all and (max-width:760px){
+        #menu{
+            visibility: hidden;
+        }
+        .coluna, .coluna-1, .coluna-2, .coluna3, .final, .sobre {
+            display:block;
+            width: 80%;
+            padding: 0;
+            margin:10px auto;
+            float:none; 
+        }
+    #logodiv{
+            width: 100%;
+            text-align: center;
+            position: relative;
+            padding: 0px;
+        }
+    #logo {
+        margin-left:0px;
+        transform: translatex(-50px);
+    }
+    }
+
